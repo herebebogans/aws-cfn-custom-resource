@@ -3,13 +3,16 @@
 var cfn = require('../lib/cfn');
 var _ = require('lodash');
 
+var log = require('bunyan').createLogger({ name: 'TestEvent', type: 'root' });
+
 exports.testParseStackId = function (test) {
   var event = new cfn.CloudFormationEvent(
     {
       StackId: 'arn:aws:cloudformation:us-east-1:123456789012:stack/mystack-mynestedstack-sggfrhxhum7w/f449b250-b969-11e0-a185-5081d0136786'
     }, {
       Context: true
-    }
+    },
+    log
   );
 
   test.ok(_.isEqual(event.stack, {
