@@ -2,6 +2,10 @@
 
 A node.js library to help write CloudFormation custom resources.
 
+# Examples
+
+See [examples](examples).
+
 # Usage
 
 ## Install

@@ -1,0 +1,32 @@
+{
+  "name": "ec2-image-info-custom-resource",
+  "version": "1.0.0",
+  "description": "AWS cloud formation custom resource that returns EC2 image information.",
+  "main": "resource.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bazaarvoice/aws-cfn-custom-resource.git"
+  },
+  "author": {
+    "name": "Bazaarvoice",
+    "url": "http://www.bazaarvoice.com/"
+  },
+  "contributors": [
+    {
+      "name": "Cory Thomas",
+      "email": "cory.thomas@bazaarvoice.com"
+    }
+  ],
+  "private": true,
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/bazaarvoice/aws-cfn-custom-resource/issues"
+  },
+  "homepage": "https://github.com/bazaarvoice/aws-cfn-custom-resource",
+  "dependencies": {
+    "aws-cfn-custom-resource": "../.."
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  }
+}

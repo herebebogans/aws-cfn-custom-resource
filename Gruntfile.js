@@ -8,7 +8,7 @@ module.exports = function (grunt) {
       all: ['test/**/*_test.js']
     },
     eslint: {
-      src: ['*.js', 'lib/**/*.js', 'test/**/*.js'],
+      src: ['*.js', 'lib/**/*.js', 'test/**/*.js', 'examples/*/*.js', 'examples/*/lib/**/*.js'],
       options: {
         configFile: 'conf/eslint.yaml'
       }
