@@ -26,7 +26,6 @@ exports.handleUpdate = function (event) {
     }
 
     return {
-      // When modifying this list, don't forget to update the readme
       data: _.pick(imageData.Images[0], [
         'ImageId',
         'ImageLocation',
