@@ -37,6 +37,7 @@
   "dependencies": {
     "aws-sdk": "^2.1.50",
     "bunyan": "^1.5.1",
+    "global-tunnel-ng": "^2.6.0",
     "lodash": "^3.10.1",
     "q": "^1.4.1",
     "randomstring": "^1.1.0"
